@@ -1,0 +1,151 @@
+/* .register-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-container input,
+.register-container select,
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.register-container input:focus,
+.register-container select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.register-container button {
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-container button:hover {
+  background: #0056b3;
+}
+
+.register-container p {
+  margin-top: 1rem;
+  text-align: center;
+} */
+
+/* Font import (optional if already global) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.login-box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 3rem;
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box h2 {
+  color: #9333ea;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #60a5fa;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
+}
+
+button {
+  background-color: #9333ea;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #7e22ce;
+}
+
+button:disabled {
+  background-color: #a855f7;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.success-text {
+  color: green;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
